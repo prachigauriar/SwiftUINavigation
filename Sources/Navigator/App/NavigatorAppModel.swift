@@ -8,6 +8,7 @@
 import Foundation
 
 
+@Observable
 final class NavigatorAppModel: NavigatorAppModeling {
     func makeExperiencePickerSceneModel() -> ExperiencePickerSceneModel {
         return ExperiencePickerSceneModel()
